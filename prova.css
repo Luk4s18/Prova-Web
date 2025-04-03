@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: "Libre Baskerville", serif;
+}
+
+
+header{
+    background-color: black;
+    pad: 25px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    align-items: center;
+    padding: 30px;
+}
+
+.div-cabecalho ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.div-cabecalho ul li {
+    list-style: none;
+}
+
+.div-cabecalho ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Libre Baskerville", serif;
+}
+
+
+.sessao-01 {
+    background-color: #676f5e;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.sessao1-form p {
+   background-color: grey;
+    padding: 10px 20px;
+    border-radius: 10px;
+    gap: 10px;
+}
+
